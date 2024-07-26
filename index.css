@@ -5,20 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    
     background: #081b29;
     color: #ededed;
 }
-
 
 :root{
     --bg-color: #191f36;
     --snd-bf-color:#262840;
     --text-color:#fff;
     --main-color:#56B2F4;
-
 }
-
 
 .header{
     position: fixed;
@@ -50,7 +46,6 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
-
 }
 .navbar a {
     font-size: 18px;
@@ -69,11 +64,9 @@ body{
     background: url(home.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-
     display: flex;
     align-items: center;
     padding: 0 10%;
-
 }
 .home-content{
     max-width: 600px;
@@ -94,17 +87,13 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
-
 }
-
-
 .home-content h3{
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
 }
-
 .home-content h3::before {
     content: '';
     position: absolute;
@@ -115,37 +104,26 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
-
 }
-
-
 .abot h3{
-
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
-
-
 }
 .heading {
-    
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
     margin-left: 150px;
     margin-top: 150px;
-
 }
-
-
 .home-content p{
     position: relative;
     font-size: 16px;
     margin: 20px 0 40px;
 }
-
 .home-content p::before {
     content: '';
     position: absolute;
@@ -156,20 +134,14 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
-
 }
-
 .home-content .btn-box {
     position: relative;
     display: flex;
     justify-content: space-between;
     width: 345px;
     height: 50px;
-    
-
 }
-
-
 .home-content .btn-box::before {
     content: '';
     position: absolute;
@@ -180,9 +152,7 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
-
 }
-
 .btn-box a{
     position: relative;
     display: inline-flex;
@@ -202,29 +172,19 @@ body{
     overflow: hidden;
     transition: .5s;
 }
-
 .btn-box a:hover {
     color: #00abf0;
 }
-
-
 .btn-box a:nth-child(2) {
     background: transparent;
-color: #00abf0;
+    color: #00abf0;
 }
-
-
 .btn-box a:nth-child(2):hover{
     color: #081b29;
-
-} 
-
-
-.btn-box a:nth-child(2) ::before {
+}
+.btn-box a:nth-child(2)::before {
     background: #00abf0;
-
 } 
-
 .btn-box a::before{
     content: '';
     position: absolute;
@@ -232,28 +192,23 @@ color: #00abf0;
     left: 0;
     width: 0;
     height: 100%;
-
     background: #081b29;
     z-index: -1;
     transition: .5s;
-
 }
 .btn-box a:hover::before {
     width: 100%;
 }
-
 .home-sci{
     position: absolute;
     bottom: 40px;
     width: 170px;
-    
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
 }
-
 .home-sci a {
     position: relative;
-    display:  inline-flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -268,11 +223,9 @@ color: #00abf0;
     overflow: hidden;
     transition: .5s;
 }
-
 .home-sci a:hover{
     color: #081b29;
 }
-
 .home-sci a::before {
     content: '';
     position: absolute;
@@ -283,12 +236,9 @@ color: #00abf0;
     background: #00abf0;
     z-index: -1;
     transition: .5s;
-     
 }
-
 .home-sci a:hover::before{
     width: 100%;
-
 }
 .home-imgHover{
     position: absolute;
@@ -304,31 +254,23 @@ color: #00abf0;
     opacity: .8;
 }
 
-
 @keyframes showRight {
-    
     100%{
         width: 0;
     }
 }
-
 .abot {
-
-    
     margin-left: 150px;
     margin-top: 200px;
 }
 .abot p{
     margin-left: 30px;
     margin-top: 20px;
+    
 }
-
 .services-box{
     margin-left: 150px;
 }
-
-
-
 .services h2{
     margin-bottom: 5rem;
 }
@@ -344,7 +286,6 @@ color: #00abf0;
     flex: 1 1 30rem;
     background: var(--snd-bf-color);
     margin-top: 110px;
-    
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
@@ -365,36 +306,122 @@ color: #00abf0;
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
-
-
 .port h3 {
-
     margin-left: 150px;
     margin-top: 80px;
     color: #00abf0;
 }
 .port ul{
-
     margin-left: 170px;
     margin-top: 20px;
-
 }
-
-
-.cont  h3 {
+.cont h3 {
     margin-left: 150px;
     margin-top: 80px;
     color: #00abf0;
-
-
-
 }
-
 .cont h4{
-
     margin-left: 170px;
     margin-top: 20px;
-
-
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .home-content h1 {
+        font-size: 48px;
+    }
+    .home-content h3 {
+        font-size: 28px;
+    }
+    .navbar a {
+        font-size: 16px;
+        margin-left: 25px;
+    }
+    .heading, .abot, .services-box, .port h3, .cont h3 {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 992px) {
+    .home-content h1 {
+        font-size: 40px;
+    }
+    .home-content h3 {
+        font-size: 24px;
+    }
+    .btn-box {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .btn-box a {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .heading, .abot, .services-box, .port h3, .cont h3 {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .home {
+        padding: 0 5%;
+    }
+    .header {
+        padding: 20px 5%;
+    }
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .home-content h3 {
+        font-size: 22px;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .heading, .abot, .services-box, .port h3, .cont h3 {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .home-content h1 {
+        font-size: 30px;
+    }
+    .home-content h3 {
+        font-size: 18px;
+    }
+    .home-content p {
+        font-size: 14px;
+    }
+    .btn-box {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .btn-box a {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .home-sci {
+        bottom: 20px;
+        width: auto;
+        flex-direction: column;
+    }
+    .home-sci a {
+        margin-bottom: 10px;
+    }
+    .heading, .abot, .services-box, .port h3, .cont h3 {
+        margin-left: 10px;
+    }
+}
