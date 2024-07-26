@@ -6,8 +6,20 @@
 }
 body{
     
+    background: #081b29;
     color: #ededed;
 }
+
+
+:root{
+    --bg-color: #191f36;
+    --snd-bf-color:#262840;
+    --text-color:#fff;
+    --main-color:#56B2F4;
+
+}
+
+
 .header{
     position: fixed;
     top: 0;
@@ -105,6 +117,29 @@ body{
     animation-delay: 1.3s;
 
 }
+
+
+.abot h3{
+
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+
+
+}
+.heading {
+    
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+    margin-left: 150px;
+    margin-top: 150px;
+
+}
+
+
 .home-content p{
     position: relative;
     font-size: 16px;
@@ -276,3 +311,90 @@ color: #00abf0;
         width: 0;
     }
 }
+
+.abot {
+
+    
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.abot p{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.services-box{
+    margin-left: 150px;
+}
+
+
+
+.services h2{
+    margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: -1000%;
+}
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--snd-bf-color);
+    margin-top: 110px;
+    
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+.services-container .services-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+.services-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.services-box h3{
+    font-size: 2.6rem;
+}
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+
+.port h3 {
+
+    margin-left: 150px;
+    margin-top: 80px;
+    color: #00abf0;
+}
+.port ul{
+
+    margin-left: 170px;
+    margin-top: 20px;
+
+}
+
+
+.cont  h3 {
+    margin-left: 150px;
+    margin-top: 80px;
+    color: #00abf0;
+
+
+
+}
+
+.cont h4{
+
+    margin-left: 170px;
+    margin-top: 20px;
+
+
+}
+
